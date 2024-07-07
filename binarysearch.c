@@ -48,9 +48,9 @@ int main(){
 
     int pos = binarysearch(arr, 0, final, numero);
     if(pos == -1){
-        printf("Numero no encontrado en la lista");
+        printf("Numero no encontrado en la lista\n");
     }
     else{
-        printf("%d", pos);
+        printf("%d\n", pos);
     }   
 }
